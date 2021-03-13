@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+}
+
+body {
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.cont {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: center;
+}
+
+#he1 {
+    font-size: 3rem;
+}
+
+#he2 {
+    font-size: 2rem;
+}
+
+#head {
+    animation: head 1.5s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#hand2 {
+    animation: hand 1.5s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#smoke {
+    animation: smoke 1.5s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#hello {
+    animation: hello 0.25s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes head {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(12deg);
+    }
+}
+
+@keyframes smoke {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(20%);
+    }
+}
+
+@keyframes hand {
+    from {
+        transform: rotateZ(-15deg);
+    }
+    to {
+        transform: rotateZ(5deg);
+    }
+}
+
+@keyframes hello {
+    from {
+        transform: rotateZ(-5deg);
+    }
+    to {
+        transform: rotateZ(5deg);
+    }
+}
+
+
+/* Education */
+
+.edu {
+    padding-left: 1rem;
+}
+
+
+/* Projects */
+
+.carousel-control-prev {
+    width: 5% !important;
+}
+
+.carousel-control-next {
+    width: 5% !important;
+}
+
+
+/* form */
+
+.crd {
+    border-radius: 1rem;
+    border: 1px solid #000000;
+}
+
+#form {
+    padding: 2rem;
+}
+
+textarea {
+    height: 10rem;
+    resize: none;
+}

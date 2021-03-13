@@ -1,0 +1,23 @@
+h1,
+h2,
+label,
+h3 {
+    font-family: "Roboto Slab", serif;
+}
+
+h4,
+h5,
+p,
+span,
+textarea,
+input {
+    font-family: "Montserrat", sans-serif;
+}
+
+.bold {
+    font-family: "Roboto Slab", serif;
+}
+
+.light {
+    font-family: "Montserrat", sans-serif;
+}
