@@ -3,6 +3,7 @@ h2,
 label,
 h3 {
     font-family: "Roboto Slab", serif;
+    overflow-y: hidden;
 }
 
 h4,
@@ -12,16 +13,20 @@ span,
 textarea,
 input {
     font-family: "Montserrat", sans-serif;
+    overflow-y: hidden;
 }
 
 .bold {
     font-family: "Roboto Slab", serif;
+    overflow-y: hidden;
 }
 
 .light {
     font-family: "Montserrat", sans-serif;
+    overflow-y: hidden;
 }
 
 .time {
     font-family: "Exo", "Montserrat", sans-serif;
+    overflow-y: hidden;
 }
